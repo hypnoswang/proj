@@ -2,6 +2,10 @@
 
 using namespace std;
 
+#define ARRAY_SIZE	15
+int input[ARRAY_SIZE] = { 12, 7, 3, 6, 2, 9, 10, 5, 8, 4, 11, 1, 13, 15, 14 };
+
+
 class bTreeNode
 {
  public:
