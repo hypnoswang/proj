@@ -1,26 +1,26 @@
-"ÉèÖÃÓï·¨¸ßÁÁ
+"è®¾ç½®è¯­æ³•é«˜äº®
 syntax enable
 syntax on
 
-"ÉèÖÃÅäÉ«·½°¸
+"è®¾ç½®é…è‰²æ–¹æ¡ˆ
 "colorscheme torte
 
-""¿ÉÒÔÔÚbufferµÄÈÎºÎµØ·½Ê¹ÓÃÊó±ê
+""å¯ä»¥åœ¨bufferçš„ä»»ä½•åœ°æ–¹ä½¿ç”¨é¼ æ ‡
 "set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
 
-"¸ßÁÁÏÔÊ¾Æ¥ÅäµÄÀ¨ºÅ
+"é«˜äº®æ˜¾ç¤ºåŒ¹é…çš„æ‹¬å·
 set showmatch
 
-"È¥µôviÒ»ÖÂĞÔ
+"å»æ‰viä¸€è‡´æ€§
 set nocompatible
 
-"Ê¹ÓÃ¿Õ¸ñ´úÌætab
+"ä½¿ç”¨ç©ºæ ¼ä»£æ›¿tab
 "set expandtab
 
-"ÉèÖÃËõ½ø
-set tabstop=4		"tab¼üµÄ¿í¶È	
+"è®¾ç½®ç¼©è¿›
+set tabstop=4		"tabé”®çš„å®½åº¦	
 set softtabstop=4
 set shiftwidth=4
 set autoindent
@@ -34,14 +34,14 @@ set fileencodings=utf-8,Unicode,ucs-bom,utf-8,cp936,gb18030,utf-16le,utf-16
 "set termencoding=utf-8
 
 
-"´ò¿ªÎÄ¼şÀàĞÍ×Ô¶¯Ê¶±ğ
+"æ‰“å¼€æ–‡ä»¶ç±»å‹è‡ªåŠ¨è¯†åˆ«
 filetype on
 
 
 "For taglist
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
-let Tlist_Show_One_File = 1            "²»Í¬Ê±ÏÔÊ¾¶à¸öÎÄ¼şµÄtag£¬Ö»ÏÔÊ¾µ±Ç°ÎÄ¼şµÄ
-let Tlist_Exit_OnlyWindow = 1          "Èç¹ûtaglist´°¿ÚÊÇ×îºóÒ»¸ö´°¿Ú£¬ÔòÍË³övim
+let Tlist_Show_One_File = 1            "ä¸åŒæ—¶æ˜¾ç¤ºå¤šä¸ªæ–‡ä»¶çš„tagï¼Œåªæ˜¾ç¤ºå½“å‰æ–‡ä»¶çš„
+let Tlist_Exit_OnlyWindow = 1          "å¦‚æœtaglistçª—å£æ˜¯æœ€åä¸€ä¸ªçª—å£ï¼Œåˆ™é€€å‡ºvim
 let Tlist_Use_Right_Window = 1
 
 "taglist key map
@@ -49,10 +49,10 @@ map <F9> :TlistToggle<CR>
 
 "NerdTree key map
 map <F10> :NERDTreeToggle<CR>
-"let NERDTreeChDirMode=2  "Ñ¡ÖĞroot¼´ÉèÖÃÎªµ±Ç°Ä¿Â¼
-let NERDTreeQuitOnOpen=1 "´ò¿ªÎÄ¼şÊ±¹Ø±ÕÊ÷
-"let NERDTreeShowBookmarks=1 "ÏÔÊ¾ÊéÇ©
-"let NERDTreeMinimalUI=1 "²»ÏÔÊ¾°ïÖúÃæ°å
-let NERDTreeDirArrows=0 "Ä¿Â¼¼ıÍ· 1 ÏÔÊ¾¼ıÍ·  0´«Í³+-|ºÅ
+"let NERDTreeChDirMode=2  "é€‰ä¸­rootå³è®¾ç½®ä¸ºå½“å‰ç›®å½•
+let NERDTreeQuitOnOpen=1 "æ‰“å¼€æ–‡ä»¶æ—¶å…³é—­æ ‘
+"let NERDTreeShowBookmarks=1 "æ˜¾ç¤ºä¹¦ç­¾
+"let NERDTreeMinimalUI=1 "ä¸æ˜¾ç¤ºå¸®åŠ©é¢æ¿
+let NERDTreeDirArrows=0 "ç›®å½•ç®­å¤´ 1 æ˜¾ç¤ºç®­å¤´  0ä¼ ç»Ÿ+-|å·
 let NERDChristmasTree=1
 let NERDTreeMouseMode=2
