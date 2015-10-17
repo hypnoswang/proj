@@ -1,0 +1,63 @@
+Python core Programming
+
+
+Chapter 2 快速入门
+
+1. "_"表示上一个命令
+2. print 可以使用“%s”等形式，
+    print "The score is %d" % (35+60)
+3. print 可以重定向:
+    >>> tmpfile = open("./test", "a")
+    >>> print >> tmpfile, "Hypnos is the sleepig god"
+    >>> tmpfile.close()
+4. raw_input()用于接受输入数据，返回的是字符串：
+    >>> num = raw_input("Enter a number:")
+    Enter a number:123
+    >>> print "The result is %d" % (int(num)+3)    #int()函数可以把字符串转化为int数字
+    The result is 126
+5. 运算符：
+    算数运算符： + - * / //(浮点除法) % **(幂运算)
+    比较运算符: < <= > >= == !=
+    逻辑运算符：and or not
+6. 字符串：'abc' "abc" '''abc''' """abc"""
+    3个引号的字符串内可以有特殊字符
+7. 列表和元组:
+    列表：list = [1, 2, 3, 4]
+    元组：tuple = (1, 2, 3, 4)
+    字符串、列表、元组的元素索引从0开始，最后一个元素的索引是-1
+    [:] 可以进行切片操作
+8. 字典，相当于php中的关联数组：
+    >>> dic={"host":"localhost", "port":80}
+    >>> dic
+    {'host': 'localhost', 'port': 80}
+    >>> dic["name"] = "myserver"
+    >>> dic
+    {'host': 'localhost', 'port': 80, 'name': 'myserver'}
+9. 条件语句：
+    if exp1:
+        if_suite1
+    elif exp2:
+        if_suite2
+    else:
+        else_suite
+10. while循环：
+    while while_exp:
+        while_suite
+11. for循环：
+    for i in list:
+        for_suite
+12. print语句的后边增加一个逗号“，”，可以关闭print的自动换行，以一个空格来代替
+13. range(lenth)用于生成lenth个元素的列表，len()可以返回数据、列表、元组的长度 
+14. 列表解析：用语句生成一个列表，如
+    >>> list2 = [x**2 for x in range(8) if not x%2]
+    >>> list2
+    [0, 4, 16, 36]
+15. 函数定义：
+    def function(optional args):
+        "Optional function description"
+        function_suite
+16. 类的定义
+    class ClassName(base_class[es]):
+        "optional documentation string"
+        static_member_declarations
+        method_declarations
