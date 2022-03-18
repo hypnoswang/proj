@@ -1,0 +1,67 @@
+[user]
+	name = wangqiang01
+	email = wangqiang01@qianxin.com
+
+;[branch]
+;	autosetuprebase = always
+
+[push]
+	default = tracking
+
+[core]
+	editor = vim
+
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	ui = true
+	pager = true
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[diff]
+	tool = vimdiff
+
+[url "ssh://git@git01.360es.cn"]
+    insteadOf = https://git01.360es.cn
+
+[url "ssh://git@git-biz.360es.cn"]
+    insteadOf = https://git-biz.360es.cn
+
+[url "ssh://git@git-biz.qianxin-inc.cn"]
+    insteadOf = https://git-biz.qianxin-inc.cn
+
+[url "ssh://git@git-open.qianxin-inc.cn"]
+    insteadOf = https://git-open.qianxin-inc.cn
+
+[https "https://github.com"]
+    proxy = proxy.lfk.qianxin-inc.cn:3128
+[http "https://github.com"]
+    proxy = proxy.lfk.qianxin-inc.cn:3128
+[https "https://git-biz.qianxin-inc.cn"]
+    proxy =
+[http "https://git-biz.qianxin-inc.cn"]
+    proxy =
+[https "https://git-open.qianxin-inc.cn"]
+    proxy =
+[http "https://git-open.qianxin-inc.cn"]
+    proxy =
+
+[credential]
+    helper = store --file $HOME/.git-credentials
+    helper = cache --timeout 30000
